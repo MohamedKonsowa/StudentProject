@@ -1,0 +1,64 @@
+﻿@using ThirdApp.Shared;
+@namespace ThirdApp.Client
+@page "/Logs"
+@inject HttpClient _httpClient
+@inject HttpClient _logHttpClient
+
+
+<label for="logType">Choose type of logs you want to display:</label>
+<InputSelect id="logType" class="form-control" @bind-Value="logTypeAsString">
+    <option value="allLogs">All logs</option>
+    @foreach (LogType type in Enum.GetValues(typeof(LogType)))
+    {
+        <option value="@type.ToString()">@type</option>
+    }
+</InputSelect>
+<div class="form-check">
+    <label class="form-check-label" for="filterByDateCheckbox">Choose specific date</label>
+    <input class="form-check-input" type="checkbox" id="filterByDateCheckbox" @bind="chooseSpecificDate" />
+</div>
+@if (!chooseSpecificDate)
+{
+    @if (!logTypeAsString.Equals("allLogs") && !logsFilesCounter[(LogType)Enum.Parse(typeof(LogType), logTypeAsString)].Equals(0))
+    {
+        <div class="form-group">
+            <label for="fileCount">Select Log File:</label>
+            <InputSelect id="fileCount" class="form-control" @bind-Value="selectedFile">
+                <option value="-1">All files</option>
+                @for (int i = 0; i <= logsFilesCounter[(LogType)Enum.Parse(typeof(LogType), logTypeAsString)]; i++)
+                {
+                    <option value="@i">File #@i</option>
+                }
+            </InputSelect>
+        </div>
+    }
+    @if (logTypeAsString.Equals("allLogs"))
+    {
+        <label for="sortOption">Select Sort Option:</label>
+        <InputSelect id="sortOption" class="form-control" @bind-Value="selectedSortOption">
+            <option value="Date">Sort by Date</option>
+            <option value="Type">Sort by Type</option>
+        </InputSelect>
+    }
+}
+else
+{
+    <label for="filterDate">Select Date:</label>
+    <input type="date" class="form-control" @bind="selectedDate" />
+}
+<button class="btn btn-primary btn-sm" @onclick="GetLogs">GetLogs</button>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">@(logTypeAsString) Logs</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in logs)
+        {
+            <tr>
+                <td>@log</td>
+            </tr>
+        }
+    </tbody>
+</table>

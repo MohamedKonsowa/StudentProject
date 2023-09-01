@@ -1,0 +1,50 @@
+Log date: 9/1/2023 7:31:22 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/1/2023 8:25:44 PM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/2/2023 12:17:56 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb!
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:18:37 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb!
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:19:35 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb!
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:21:51 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:22:32 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:25:53 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:29:31 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:34:04 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:34:37 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 12:35:46 AM
+[Error]Log:Error occured while adding student:Mjoeb!Optlpwb
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/2/2023 1:14:52 AM
+[Error]Log:Error occured while adding student:Nkpfc Pqumqxc
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================

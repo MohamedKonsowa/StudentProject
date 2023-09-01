@@ -1,0 +1,4 @@
+Information=0
+Debug=0
+Error=3
+Critical=0

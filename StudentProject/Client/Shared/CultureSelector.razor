@@ -1,0 +1,11 @@
+﻿@inject NavigationManager _navigationManager
+@inject IJSRuntime _js
+<weak>Language</weak>
+
+<select @bind="culture">
+    @foreach(var culture in Cultures)
+    {
+        <option value="@culture">@culture.DisplayName</option>
+    }
+
+</select>

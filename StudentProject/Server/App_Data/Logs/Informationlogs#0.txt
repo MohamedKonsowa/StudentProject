@@ -1,0 +1,27 @@
+Log date: 8/30/2023 7:33:56 AM
+[Information]Log:Student:Linda was deleted successfully
+===========================================================================
+Log date: 9/2/2023 12:21:03 AM
+[Information]Log:Student:Novak was deleted successfully
+===========================================================================
+Log date: 9/2/2023 12:21:21 AM
+[Information]Log:Student:Novak was added successfully
+===========================================================================
+Log date: 9/2/2023 12:30:06 AM
+[Information]Log:Student:Linda was added successfully
+===========================================================================
+Log date: 9/2/2023 1:11:37 AM
+[Information]Log:Student:Khmcz Mnrjnuz was deleted successfully
+===========================================================================
+Log date: 9/2/2023 1:11:38 AM
+[Information]Log:Student:Linda was deleted successfully
+===========================================================================
+Log date: 9/2/2023 1:11:55 AM
+[Information]Log:Student:Linda Noskova was added successfully
+===========================================================================
+Log date: 9/2/2023 1:15:23 AM
+[Information]Log:Student:Linda Noskova was added successfully
+===========================================================================
+Log date: 9/2/2023 1:15:33 AM
+[Information]Log:Student:Linda Noskova was deleted successfully
+===========================================================================

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ThirdApp.Client.props" />
+</Project>

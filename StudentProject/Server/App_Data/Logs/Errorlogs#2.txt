@@ -1,0 +1,124 @@
+Log date: 8/30/2023 7:08:54 AM
+[Error]Log:System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[List`1](Utf8JsonReader& reader, JsonTypeInfo jsonTypeInfo, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[List`1](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.<ReadFromStreamAsync>d__76`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].MoveNext()
+   at System.Net.Http.Json.HttpContentJsonExtensions.<ReadFromJsonAsyncCore>d__5`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].MoveNext()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<GetFromJsonAsyncCore>d__29`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].MoveNext()
+   at ThirdApp.Client.LogsComponent.GetLogs() in D:\training\PROJECTS\MainProject\Client\Pages\LogsComponent.razor.cs:line 45
+===========================================================================
+Log date: 8/30/2023 7:10:58 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:13:24 AM
+[Error]Log:System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<GetFromJsonAsyncCore>d__29`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].MoveNext()
+   at ThirdApp.Client.LogsComponent.GetLogs() in D:\training\PROJECTS\MainProject\Client\Pages\LogsComponent.razor.cs:line 45
+===========================================================================
+Log date: 8/30/2023 7:13:58 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:17:09 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:17:11 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:17:37 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:17:37 AM
+[Error]Log:System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<GetFromJsonAsyncCore>d__29`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].MoveNext()
+   at ThirdApp.Client.LogsComponent.GetLogs() in D:\training\PROJECTS\MainProject\Client\Pages\LogsComponent.razor.cs:line 45
+===========================================================================
+Log date: 8/30/2023 7:19:43 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#1.txt
+===========================================================================
+Log date: 8/30/2023 7:19:44 AM
+[Error]Log:System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<GetFromJsonAsyncCore>d__29`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].MoveNext()
+   at ThirdApp.Client.LogsComponent.GetLogs() in D:\training\PROJECTS\MainProject\Client\Pages\LogsComponent.razor.cs:line 45
+===========================================================================
+Log date: 8/30/2023 7:22:00 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:23:58 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#1.txt
+===========================================================================
+Log date: 8/30/2023 7:26:03 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:27:58 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:28:00 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:29:10 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:29:13 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:32:06 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:32:07 AM
+[Error]Log:File not found: App_Data\Logs\Informationlogs#0.txt
+===========================================================================
+Log date: 8/30/2023 7:34:14 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 10:43:28 PM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 10:43:30 PM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/30/2023 10:43:35 PM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/31/2023 1:49:30 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/31/2023 1:49:53 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/31/2023 1:54:42 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/31/2023 1:55:05 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/31/2023 1:56:58 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/31/2023 2:01:25 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 8/31/2023 2:01:47 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/1/2023 7:30:52 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/1/2023 7:30:56 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/1/2023 7:31:00 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================

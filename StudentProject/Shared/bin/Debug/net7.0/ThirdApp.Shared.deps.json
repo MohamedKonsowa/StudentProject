@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ThirdApp.Shared/1.0.0": {
+        "runtime": {
+          "ThirdApp.Shared.dll": {}
+        },
+        "resources": {
+          "ar/ThirdApp.Shared.resources.dll": {
+            "locale": "ar"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThirdApp.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
