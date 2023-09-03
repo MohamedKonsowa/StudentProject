@@ -117,3 +117,4 @@ D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.pdb
 D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.genruntimeconfig.cache
 D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ref\ThirdApp.Server.dll
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\App_Data\Students\Students#0.json
+D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\App_Data\Students\Students#1.json

@@ -214,3 +214,6 @@ Log date: 9/3/2023 9:39:46 AM
 Log date: 9/3/2023 9:42:13 AM
 [Information]Log:Student:Nptubgb Npibnfe was added successfully
 ===========================================================================
+Log date: 9/4/2023 1:51:05 AM
+[Information]Log:Student:Npibnfe Lpotpxb was added successfully
+===========================================================================

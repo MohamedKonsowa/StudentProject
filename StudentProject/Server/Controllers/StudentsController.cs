@@ -8,7 +8,7 @@ public class StudentsController : ControllerBase
 {
     string allocationPath = "App_Data\\Students";
     List<Student> students = new();
-    int filesCounter = 0;
+    int filesCounter = 1;
     int maxFileSize = 1024;
 
     public StudentsController() => ReadFilesCounters();
@@ -95,7 +95,7 @@ public class StudentsController : ControllerBase
             {
                 StringBuilder fileData = new StringBuilder(await ReadStudentsFromSpecificFile(fileCount));
                 if (!fileData.Length.Equals(0) && !allStudentsData.Length.Equals(0)) fileData.Remove(0, 1);
-                if (!fileCount.Equals(filesCounter) && !allStudentsData.Length.Equals(0)) allStudentsData[allStudentsData.Length - 1] = ',';
+                allStudentsData[allStudentsData.Length - 1] = ',';
                 allStudentsData.Append(fileData);
             }
             else
