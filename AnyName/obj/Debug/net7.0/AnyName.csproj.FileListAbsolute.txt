@@ -1,0 +1,15 @@
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\bin\Debug\net7.0\AnyName.exe
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\bin\Debug\net7.0\AnyName.deps.json
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\bin\Debug\net7.0\AnyName.runtimeconfig.json
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\bin\Debug\net7.0\AnyName.dll
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\bin\Debug\net7.0\AnyName.pdb
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\AnyName.csproj.AssemblyReference.cache
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\AnyName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\AnyName.AssemblyInfoInputs.cache
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\AnyName.AssemblyInfo.cs
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\AnyName.csproj.CoreCompileInputs.cache
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\AnyName.dll
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\refint\AnyName.dll
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\AnyName.pdb
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\AnyName.genruntimeconfig.cache
+C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\AnyName\obj\Debug\net7.0\ref\AnyName.dll

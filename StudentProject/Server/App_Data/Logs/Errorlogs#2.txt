@@ -122,3 +122,19 @@ Log date: 9/1/2023 7:30:56 AM
 Log date: 9/1/2023 7:31:00 AM
 [Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
 ===========================================================================
+Log date: 9/3/2023 4:26:49 AM
+[Error]Log:Error occured while adding student:mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 4:30:35 AM
+[Error]Log:Error occured while adding student:Mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 4:42:02 AM
+[Error]Log:Error occured while deleting student:Khmcz Mnrjnuz
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 8:52:33 AM
+[Error]Log:Error occured while deleting student:Mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================

@@ -1,0 +1,38 @@
+﻿<div>
+	@if(listOfMovies == null)
+	{
+		<img src="https://media.tenor.com/XasjKGMk_wAAAAAC/load-loading.gif" />
+	}
+	else if(listOfMovies.Count == 0)
+	{
+		<p>there is no recoreds to show </p>
+	}
+	else
+	{
+		foreach(var movie in listOfMovies)
+		{
+			<IndividualMovie Movie="movie" DeleteMovie="DeleteMovie"></IndividualMovie>
+		}
+	}
+
+</div>
+
+
+@code {
+
+
+	List<Movie> movies = new List<Movie>()
+	{
+		new Movie(){name = "Barbie the movie", releaseDate = new DateTime(2023,7,22)},
+		new Movie(){name = "shutter island", releaseDate = new DateTime(2009,6,08)},
+		new Movie(){name = "shawshank redemption", releaseDate = new DateTime(2001,7,22)}
+
+	};
+
+	[Parameter]
+	public List<Movie> listOfMovies { get; set;}
+	private void DeleteMovie(Movie movie)
+	{
+		listOfMovies.Remove(movie);
+	}
+}

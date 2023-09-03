@@ -57,6 +57,15 @@ D:\training\PROJECTS\MainProject\Server\obj\Debug\net7.0\refint\ThirdApp.Server.
 D:\training\PROJECTS\MainProject\Server\obj\Debug\net7.0\ThirdApp.Server.pdb
 D:\training\PROJECTS\MainProject\Server\obj\Debug\net7.0\ThirdApp.Server.genruntimeconfig.cache
 D:\training\PROJECTS\MainProject\Server\obj\Debug\net7.0\ref\ThirdApp.Server.dll
+D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.csproj.AssemblyReference.cache
+D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.AssemblyInfoInputs.cache
+D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.AssemblyInfo.cs
+D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.csproj.CoreCompileInputs.cache
+D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.RazorAssemblyInfo.cache
+D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.RazorAssemblyInfo.cs
+D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ThirdApp.Client.staticwebassets.runtime.json
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\appsettings.Development.json
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\appsettings.json
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\App_Data\Students\students.json
@@ -68,7 +77,6 @@ D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\BlazorDebugProxy\Mic
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
-D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ThirdApp.Client.staticwebassets.runtime.json
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ThirdApp.Server.staticwebassets.runtime.json
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ThirdApp.Server.exe
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ThirdApp.Server.deps.json
@@ -94,14 +102,6 @@ D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ThirdApp.Shared.dll
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ThirdApp.Client.pdb
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ThirdApp.Shared.pdb
 D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\ar\ThirdApp.Shared.resources.dll
-D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.csproj.AssemblyReference.cache
-D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.GeneratedMSBuildEditorConfig.editorconfig
-D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.AssemblyInfoInputs.cache
-D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.AssemblyInfo.cs
-D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.csproj.CoreCompileInputs.cache
-D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.MvcApplicationPartsAssemblyInfo.cache
-D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.RazorAssemblyInfo.cache
-D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.RazorAssemblyInfo.cs
 D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\staticwebassets\msbuild.ThirdApp.Server.Microsoft.AspNetCore.StaticWebAssets.props
 D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.ThirdApp.Server.props
 D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ThirdApp.Server.props
@@ -116,3 +116,4 @@ D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\refint\ThirdApp.Serv
 D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.pdb
 D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ThirdApp.Server.genruntimeconfig.cache
 D:\training\PROJECTS\StudentProject\Server\obj\Debug\net7.0\ref\ThirdApp.Server.dll
+D:\training\PROJECTS\StudentProject\Server\bin\Debug\net7.0\App_Data\Students\Students#0.json

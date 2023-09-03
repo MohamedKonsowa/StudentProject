@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\elrab\\OneDrive\\Desktop\\training\\PROJECTS\\BlazorMovies\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\elrab\\OneDrive\\Desktop\\training\\PROJECTS\\BlazorMovies\\Client\\obj\\Debug\\net7.0\\build-gz\\W+4Hu277.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\elrab\\OneDrive\\Desktop\\training\\PROJECTS\\BlazorMovies\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\elrab\\OneDrive\\Desktop\\training\\PROJECTS\\BlazorMovies\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorMovies.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BlazorMovies.Client.props",
+      "PackagePath": "build\\BlazorMovies.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorMovies.Client.props",
+      "PackagePath": "buildMultiTargeting\\BlazorMovies.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorMovies.Client.props",
+      "PackagePath": "buildTransitive\\BlazorMovies.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

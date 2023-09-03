@@ -1,4 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization.Json;
+using System.Text;
+using System.Text.Json;
+using System.Text.Json.Nodes;
 
 namespace ThirdApp;
 public class Student

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\elrab\\OneDrive\\Desktop\\training\\PROJECTS\\FirstBlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\elrab\\OneDrive\\Desktop\\training\\PROJECTS\\FirstBlazorWebAssembly\\obj\\Debug\\net7.0\\build-gz\\W+4Hu277.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\elrab\\OneDrive\\Desktop\\training\\PROJECTS\\FirstBlazorWebAssembly\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\elrab\\OneDrive\\Desktop\\training\\PROJECTS\\FirstBlazorWebAssembly\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FirstBlazorWebAssembly.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FirstBlazorWebAssembly.props",
+      "PackagePath": "build\\FirstBlazorWebAssembly.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FirstBlazorWebAssembly.props",
+      "PackagePath": "buildMultiTargeting\\FirstBlazorWebAssembly.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FirstBlazorWebAssembly.props",
+      "PackagePath": "buildTransitive\\FirstBlazorWebAssembly.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

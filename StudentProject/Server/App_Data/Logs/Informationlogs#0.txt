@@ -25,3 +25,162 @@ Log date: 9/2/2023 1:15:23 AM
 Log date: 9/2/2023 1:15:33 AM
 [Information]Log:Student:Linda Noskova was deleted successfully
 ===========================================================================
+Log date: 9/3/2023 4:36:45 AM
+[Information]Log:Student:Lngzldc was added successfully
+===========================================================================
+Log date: 9/3/2023 4:37:23 AM
+[Information]Log:Student:Khmcz Mnrjnuz was added successfully
+===========================================================================
+Log date: 9/3/2023 5:00:28 AM
+[Information]Log:Student:Oqjcogf was added successfully
+===========================================================================
+Log date: 9/3/2023 5:02:01 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:03:36 AM
+[Information]Log:Student:Lngzldc was deleted successfully
+===========================================================================
+Log date: 9/3/2023 6:03:37 AM
+[Information]Log:Student:Khmcz Mnrjnuz was deleted successfully
+===========================================================================
+Log date: 9/3/2023 6:03:45 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 6:13:37 AM
+[Information]Log:Student:ibnbeb was added successfully
+===========================================================================
+Log date: 9/3/2023 6:36:25 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:37:28 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:39:55 AM
+[Information]Log:Student:Mjoeb Optlpwb was added successfully
+===========================================================================
+Log date: 9/3/2023 6:41:01 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:42:16 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:43:00 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:44:32 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:47:47 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:49:03 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 6:49:42 AM
+[Information]Log:Student:tbnz was added successfully
+===========================================================================
+Log date: 9/3/2023 6:50:18 AM
+[Information]Log:Student:Tbnbi was added successfully
+===========================================================================
+Log date: 9/3/2023 6:52:57 AM
+[Information]Log:Student:tbnb was added successfully
+===========================================================================
+Log date: 9/3/2023 7:02:17 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:07:13 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:13:41 AM
+[Information]Log:Student:npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:15:18 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:16:20 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:19:02 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:21:03 AM
+[Information]Log:Student:Tbnmb was added successfully
+===========================================================================
+Log date: 9/3/2023 7:26:49 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:28:01 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:29:36 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:33:19 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:39:36 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:50:35 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 7:57:01 AM
+[Information]Log:Student:Npibnfe was added successfully
+===========================================================================
+Log date: 9/3/2023 8:12:22 AM
+[Information]Log:Student:ibnbeb was added successfully
+===========================================================================
+Log date: 9/3/2023 8:12:35 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:35 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:35 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:35 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:35 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:35 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:35 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:36 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:36 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:36 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:36 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:36 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:36 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:36 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:37 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:37 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:37 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================
+Log date: 9/3/2023 8:12:37 AM
+[Information]Log:Student:Mohamed was deleted successfully
+===========================================================================

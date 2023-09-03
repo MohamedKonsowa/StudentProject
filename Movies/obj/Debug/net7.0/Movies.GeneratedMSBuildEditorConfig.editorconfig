@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Movies
+build_property.RootNamespace = Movies
+build_property.ProjectDir = C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\Movies\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\elrab\OneDrive\Desktop\training\PROJECTS\Movies
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Shared/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Shared/IndividualMovie.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEluZGl2aWR1YWxNb3ZpZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Shared/MoviesList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vdmllc0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7j9hch7tgb
+
+[C:/Users/elrab/OneDrive/Desktop/training/PROJECTS/Movies/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rvfxdfbvax

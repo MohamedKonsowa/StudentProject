@@ -846,6 +846,8 @@ D:\training\PROJECTS\MainProject\Client\obj\Debug\net7.0\ThirdApp.Client.dll
 D:\training\PROJECTS\MainProject\Client\obj\Debug\net7.0\refint\ThirdApp.Client.dll
 D:\training\PROJECTS\MainProject\Client\obj\Debug\net7.0\ThirdApp.Client.pdb
 D:\training\PROJECTS\MainProject\Client\obj\Debug\net7.0\ref\ThirdApp.Client.dll
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ar\ThirdApp.Shared.resources.dll
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.10.r0b0899xdh.js
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
@@ -1046,6 +1048,10 @@ D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\S
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Client.dll
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Client.pdb
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Shared.dll
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Shared.pdb
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
@@ -1069,6 +1075,7 @@ D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\S
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Shared.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
@@ -1099,6 +1106,7 @@ D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\S
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Client.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
@@ -1147,10 +1155,12 @@ D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\S
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll.gz
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ar\ThirdApp.Shared.resources.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Shared.pdb.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
@@ -1198,6 +1208,7 @@ D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\n
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Client.pdb.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
@@ -1248,17 +1259,6 @@ D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\S
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ar\ThirdApp.Shared.resources.dll
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Client.dll
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Client.pdb
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Shared.dll
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Shared.pdb
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Shared.dll.gz
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Client.dll.gz
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ar\ThirdApp.Shared.resources.dll.gz
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Shared.pdb.gz
-D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\wwwroot\_framework\ThirdApp.Client.pdb.gz
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\ThirdApp.Client.staticwebassets.runtime.json
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\ThirdApp.Client.dll
 D:\training\PROJECTS\StudentProject\Client\bin\Debug\net7.0\ThirdApp.Client.pdb

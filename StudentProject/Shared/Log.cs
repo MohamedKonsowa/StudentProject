@@ -111,10 +111,10 @@ public static class Log
             return logs;
         }
     }
-    public static async Task<IEnumerable<string>> ReadInformaitonLogs(int fileId = -1) => (await ReadLogs(LogType.Information, fileId));
-    public static async Task<IEnumerable<string>> ReadDebugLogs(int fileId = -1) => (await ReadLogs(LogType.Debug, fileId));
-    public static async Task<IEnumerable<string>> ReadErrorLogs(int fileId = -1) => (await ReadLogs(LogType.Error, fileId));
-    public static async Task<IEnumerable<string>> ReadCriticalLogs(int fileId = -1) => (await ReadLogs(LogType.Critical, fileId));
+    public static async Task<IEnumerable<string>> ReadInformaitonLogs(int fileId = -1) => await ReadLogs(LogType.Information, fileId);
+    public static async Task<IEnumerable<string>> ReadDebugLogs(int fileId = -1) => await ReadLogs(LogType.Debug, fileId);
+    public static async Task<IEnumerable<string>> ReadErrorLogs(int fileId = -1) => await ReadLogs(LogType.Error, fileId);
+    public static async Task<IEnumerable<string>> ReadCriticalLogs(int fileId = -1) => await ReadLogs(LogType.Critical, fileId);
     public static async Task<List<string>> ReadAllLogsFiles()
     {
         List<string> allLogs = new List<string>();
@@ -132,6 +132,7 @@ public static class Log
     {
         List<string> lines = await ReadAllLogsFiles();
         if(lines.Count.Equals(0)) return new List<LogHelper>();
+
         List<LogHelper> sortedLogs = new();
         int dateIndex;
         int typeStartIndex;

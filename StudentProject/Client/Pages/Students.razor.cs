@@ -14,6 +14,9 @@ public partial class Students
     public List<Student>? students;
     public Student student = new();
     bool isLoaded;
+    bool isSaved = false;
+    string statusClass = string.Empty;
+    string message = string.Empty;
     protected async override Task OnInitializedAsync() => await base.OnInitializedAsync();
     protected async override Task OnAfterRenderAsync(bool firstRender)
     {
@@ -28,22 +31,26 @@ public partial class Students
     protected async void OnFormSubmit()
     {
         student.Id = Guid.NewGuid();
-        Student tempStudent =  Encryption.EncryptStudent(student);
+        isSaved = true;
 
-        HttpResponseMessage response = await _httpClient.PostAsJsonAsync("api/students", tempStudent);
-        if(response.IsSuccessStatusCode)
+        HttpResponseMessage response = await _httpClient.PostAsJsonAsync("api/students", Encryption.EncryptStudent(student));
+        if (response.IsSuccessStatusCode)
         {
-            students?.Add(tempStudent);
-            string logContent = $"Student:{Encryption.UnShiftCharacters(student.Name)} was added successfully";
+            students?.Add(student);
+            string logContent = $"Student:{student.Name} was added successfully";
             await _logHttpClient.PostAsJsonAsync("api/logs/Information", logContent);
-            student = new();
+            statusClass = "alert-success";
+            message = "Student was added successfully.";
         }
         else
         {
             string logContent = $"Error occured while adding student:{student.Name}{Environment.NewLine}Error:{response.Content}";
             await _logHttpClient.PostAsJsonAsync("api/logs/Error", logContent);
+            statusClass = "alert-danger";
+            message = "Error occured while adding student, Please try again.";
         }
         //students = await _httpClient.GetFromJsonAsync<List<Student>>("api/students");
+        student = new();
         await InvokeAsync(StateHasChanged);
     }
     public async Task DeleteFromList(Student student)

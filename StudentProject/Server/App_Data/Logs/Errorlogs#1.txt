@@ -91,3 +91,18 @@ Log date: 8/30/2023 7:06:37 AM
    at System.Net.Http.Json.HttpClientJsonExtensions.<GetFromJsonAsyncCore>d__29`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].MoveNext()
    at ThirdApp.Client.LogsComponent.GetLogs() in D:\training\PROJECTS\MainProject\Client\Pages\LogsComponent.razor.cs:line 45
 ===========================================================================
+Log date: 9/3/2023 4:24:18 AM
+[Error]Log:Error occured while adding student:Npibnfe
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 4:29:56 AM
+[Error]Log:Error occured while adding student:Mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 4:35:42 AM
+[Error]Log:Error occured while adding student:Mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 8:52:33 AM
+[Error]Log:The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+===========================================================================

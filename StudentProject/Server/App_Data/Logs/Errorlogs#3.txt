@@ -48,3 +48,49 @@ Log date: 9/2/2023 1:14:52 AM
 [Error]Log:Error occured while adding student:Nkpfc Pqumqxc
 Error:System.Net.Http.BrowserHttpContent
 ===========================================================================
+Log date: 9/3/2023 4:27:17 AM
+[Error]Log:Error occured while adding student:mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 5:55:54 AM
+[Error]Log:Error occured while deleting student:Lngzldc
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 5:56:22 AM
+[Error]Log:Error occured while deleting student:Lngzldc
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 5:56:32 AM
+[Error]Log:Error occured while deleting student:Khmcz Mnrjnuz
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 5:56:35 AM
+[Error]Log:Error occured while deleting student:Mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 5:56:42 AM
+[Error]Log:Error occured while deleting student:mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 5:58:51 AM
+[Error]Log:Error occured while deleting student:Lngzldc
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 5:59:03 AM
+[Error]Log:Error occured while deleting student:Khmcz Mnrjnuz
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 8:53:09 AM
+[Error]Log:The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+===========================================================================
+Log date: 9/3/2023 8:53:09 AM
+[Error]Log:Error occured while deleting student:Mohamed
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================
+Log date: 9/3/2023 8:54:37 AM
+[Error]Log:The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+===========================================================================
+Log date: 9/3/2023 8:54:37 AM
+[Error]Log:Error occured while deleting student:ali
+Error:System.Net.Http.BrowserHttpContent
+===========================================================================

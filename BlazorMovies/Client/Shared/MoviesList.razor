@@ -1,0 +1,22 @@
+﻿<div>
+	@foreach (var movie in movies)
+	{
+		<p>title : @movie.name</p>
+		<p>datee :@movie.releaseDate.ToString()</p>
+	}
+</div>
+
+
+@code {
+
+
+	List<Movie> movies = new List<Movie>()
+	{
+		new Movie(){name = "Barbie the movie", releaseDate = new DateTime(2023,7,22)},
+		new Movie(){name = "shutter island", releaseDate = new DateTime(2023,7,22)},
+		new Movie(){name = "shawshank redemption", releaseDate = new DateTime(2023,7,22)}
+
+	};
+
+
+}

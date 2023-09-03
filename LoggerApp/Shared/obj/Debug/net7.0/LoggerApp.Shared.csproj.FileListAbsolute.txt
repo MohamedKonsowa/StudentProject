@@ -1,0 +1,11 @@
+D:\training\PROJECTS\LoggerApp\Shared\bin\Debug\net7.0\LoggerApp.Shared.deps.json
+D:\training\PROJECTS\LoggerApp\Shared\bin\Debug\net7.0\LoggerApp.Shared.dll
+D:\training\PROJECTS\LoggerApp\Shared\bin\Debug\net7.0\LoggerApp.Shared.pdb
+D:\training\PROJECTS\LoggerApp\Shared\obj\Debug\net7.0\LoggerApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\PROJECTS\LoggerApp\Shared\obj\Debug\net7.0\LoggerApp.Shared.AssemblyInfoInputs.cache
+D:\training\PROJECTS\LoggerApp\Shared\obj\Debug\net7.0\LoggerApp.Shared.AssemblyInfo.cs
+D:\training\PROJECTS\LoggerApp\Shared\obj\Debug\net7.0\LoggerApp.Shared.csproj.CoreCompileInputs.cache
+D:\training\PROJECTS\LoggerApp\Shared\obj\Debug\net7.0\LoggerApp.Shared.dll
+D:\training\PROJECTS\LoggerApp\Shared\obj\Debug\net7.0\refint\LoggerApp.Shared.dll
+D:\training\PROJECTS\LoggerApp\Shared\obj\Debug\net7.0\LoggerApp.Shared.pdb
+D:\training\PROJECTS\LoggerApp\Shared\obj\Debug\net7.0\ref\LoggerApp.Shared.dll

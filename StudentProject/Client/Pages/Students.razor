@@ -8,64 +8,71 @@
 @inject IJSRuntime js
 <h3>Students</h3>
 
-<EditForm Model="student" OnValidSubmit="OnFormSubmit">
-    <DataAnnotationsValidator />
-    <div class="row">
-        <div class="col-md-6 mb-2">
-            <label>@localizer["Name"]</label>
-            <InputText @bind-Value="student.Name" class="form-control" placeholder="@localizer["NamePlaceHolder"]" required></InputText>
-            <ValidationMessage For="@(() => student.Name)"/> 
-        </div>
-        <div class="col-md-6 mb-2">
-            <label>@localizer["Age"]</label>
-            <InputNumber @bind-Value="student.Age" class="form-control"></InputNumber>
-            <ValidationMessage For="@(() => student.Age)" />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12 mb-2">
-            <label>@localizer["Mobile"]</label>
-            <InputText @bind-Value="student.Mobile" class="form-control" placeholder="@localizer["MobilePlaceHolder"]" required></InputText>
-            <ValidationMessage For="@(() => student.Mobile)" />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <button type="submit" class="btn btn-primary">@localizer["SaveButton"]</button>
-        </div>
-    </div>
-</EditForm>
-
-@if (!isLoaded)
+@if (!isSaved)
 {
-    <div class="spinner-border" role="status">
-        <span class="sr-only">Loading...</span>
-    </div>
+    <EditForm Model="student" OnValidSubmit="OnFormSubmit">
+        <DataAnnotationsValidator />
+        <div class="row">
+            <div class="col-md-6 mb-2">
+                <label>@localizer["Name"]</label>
+                <InputText @bind-Value="student.Name" class="form-control" placeholder="@localizer["NamePlaceHolder"]" required></InputText>
+                <ValidationMessage For="@(() => student.Name)" />
+            </div>
+            <div class="col-md-6 mb-2">
+                <label>@localizer["Age"]</label>
+                <InputNumber @bind-Value="student.Age" class="form-control"></InputNumber>
+                <ValidationMessage For="@(() => student.Age)" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                <label>@localizer["Mobile"]</label>
+                <InputText @bind-Value="student.Mobile" class="form-control" placeholder="@localizer["MobilePlaceHolder"]" required></InputText>
+                <ValidationMessage For="@(() => student.Mobile)" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">@localizer["SaveButton"]</button>
+            </div>
+        </div>
+    </EditForm>
+
+    @if (!isLoaded)
+    {
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">@nameof(Student.Id)</th>
+                    <th scope="col">@nameof(Student.Name)</th>
+                    <th scope="col">@nameof(Student.Age)</th>
+                    <th scope="col">@nameof(Student.Mobile)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Student student in students ?? new())
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@Encryption.UnShiftCharacters(student.Name)</td>
+                        <td>@Encryption.DecryptInt(student.Age)</td>
+                        <td>@Encryption.DecryptMobileNumber(student.Mobile)</td>
+                        <td>
+                            <button class="btn btn-danger" @onclick="() => DeleteFromList(student)">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
 }
 else
 {
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th scope="col">@nameof(Student.Id)</th>
-                <th scope="col">@nameof(Student.Name)</th>
-                <th scope="col">@nameof(Student.Age)</th>
-                <th scope="col">@nameof(Student.Mobile)</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (Student student in students ?? new())
-            {
-                <tr>
-                    <td>@student.Id</td>
-                    <td>@Encryption.UnShiftCharacters(student.Name)</td>
-                    <td>@Encryption.DecryptInt(student.Age)</td>
-                    <td>@Encryption.DecryptMobileNumber(student.Mobile)</td>
-                    <td>
-                        <button class="btn btn-danger" @onclick="() => DeleteFromList(student)">Delete</button>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    <div class="@statusClass">@message</div>
 }

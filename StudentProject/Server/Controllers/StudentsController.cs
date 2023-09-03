@@ -1,4 +1,6 @@
-﻿namespace ThirdApp.Server;
+﻿using System.Text;
+
+namespace ThirdApp.Server;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -6,47 +8,105 @@ public class StudentsController : ControllerBase
 {
     string allocationPath = "App_Data\\Students";
     List<Student> students = new();
-    List<Student> encryptedStudntsList = new();
+    int filesCounter = 0;
+    int maxFileSize = 1024;
 
-    public StudentsController() => ReadStudentsFromFile();
-    private void ReadStudentsFromFile()
+    public StudentsController() => ReadFilesCounters();
+
+    private async Task SaveFilesCounter()
     {
-        if (System.IO.File.Exists($"{allocationPath}\\students.json"))
+        string filePath = $"{allocationPath}\\FilesCounter.txt";
+        object fileLock = new object();
+        lock (fileLock)
         {
-            string fileContent = System.IO.File.ReadAllText($"{allocationPath}\\students.json");
-            if (string.IsNullOrEmpty(fileContent)) return;
-
-            students = JsonSerializer.Deserialize<List<Student>>(fileContent);
+            using (StreamWriter streamWriter = new StreamWriter(filePath))
+            {
+                streamWriter.WriteAsync(filesCounter.ToString());
+            }
         }
     }
-    ~StudentsController()
+    private async Task ReadFilesCounters()
     {
-        FlushStudentsToFile();
+        string filePath = $"{allocationPath}\\FilesCounter.txt";
+        if (System.IO.File.Exists(filePath))
+        {
+            using (StreamReader streamReader = new StreamReader(filePath))
+            {
+                string number = await streamReader.ReadToEndAsync();
+                filesCounter = int.Parse(number);
+            }
+        }
     }
 
     [HttpPost]
-    public void CreateStudent([FromBody] Student student)
+    public async Task AppendStudentToFile(Student student)
     {
         ArgumentNullException.ThrowIfNull(student);
 
-        Student tempStudent = Encryption.DecryptStudent(student);
-        students.Add(tempStudent);
-        FlushStudentsToFile();
-    }
-    private void FlushStudentsToFile()
-    {
         if (!Directory.Exists(allocationPath)) Directory.CreateDirectory(allocationPath);
 
-        System.IO.File.WriteAllText($"{allocationPath}\\students.json", JsonSerializer.Serialize(students));
+        string filePath = $"{allocationPath}\\Students#{filesCounter}.json";
+        long fileSize = 0;
+        if (System.IO.File.Exists(filePath))
+            fileSize = new FileInfo(filePath).Length;
+        if (fileSize >= maxFileSize)
+        {
+            filesCounter++;
+            await SaveFilesCounter();
+            filePath = $"{allocationPath}\\Students#{filesCounter}.json";
+            fileSize = 0;
+        }
+        StringBuilder studentAsJson = new StringBuilder(JsonSerializer.Serialize(student));
+        if (fileSize.Equals(0)) studentAsJson.Insert(0, '[');
+        studentAsJson.Append(',');
+
+        object fileLock = new object();
+        lock (fileLock)
+        {
+            using (StreamWriter streamWriter = new StreamWriter(filePath, true))
+            {
+                streamWriter.WriteAsync(studentAsJson);
+            };
+        }
+    }
+
+    private async Task<string> ReadStudentsFromSpecificFile(int fileId)
+    {
+        string filePath = $"{allocationPath}\\Students#{fileId}.json";
+        if (!System.IO.File.Exists(filePath)) return string.Empty;
+
+        StringBuilder fileData = new StringBuilder();
+        using (StreamReader streamReader = new StreamReader(filePath))
+        {
+            fileData = new(await streamReader.ReadToEndAsync());
+        }
+        //streamReader.Close();
+        if (fileData.Length > 0) fileData[fileData.Length - 1] = ']';
+
+        return fileData.ToString();
     }
     [HttpGet]
-    public IEnumerable<Student> ReadAllStudents()
+    public async Task<List<Student>> ReadAllStudents()
     {
-        // Thread.Sleep(5000);
-        Student tempStudent = new();
-        foreach (Student student in students) encryptedStudntsList.Add(Encryption.EncryptStudent(student));
-
-        return encryptedStudntsList;
+        StringBuilder allStudentsData = new StringBuilder();
+        for (int fileCount = 0; fileCount <= filesCounter; fileCount++)
+        {
+            if (!fileCount.Equals(0))
+            {
+                StringBuilder fileData = new StringBuilder(await ReadStudentsFromSpecificFile(fileCount));
+                if (!fileData.Length.Equals(0) && !allStudentsData.Length.Equals(0)) fileData.Remove(0, 1);
+                if (!fileCount.Equals(filesCounter) && !allStudentsData.Length.Equals(0)) allStudentsData[allStudentsData.Length - 1] = ',';
+                allStudentsData.Append(fileData);
+            }
+            else
+                allStudentsData = new(await ReadStudentsFromSpecificFile(fileCount));
+        }
+        if (!allStudentsData.Length.Equals(0))
+        {
+            List<Student> students = await JsonSerializer.DeserializeAsync<List<Student>>(new MemoryStream(Encoding.UTF8.GetBytes(allStudentsData.ToString())));
+            return students;
+        }
+        return new List<Student>();
     }
 
     // GET api/<StudentsController>/5
@@ -68,12 +128,37 @@ public class StudentsController : ControllerBase
     {
         try
         {
-            Student studentToDelete = students.FirstOrDefault(student => student.Id == id);
-            if (studentToDelete == null) return NotFound();
+            for (int i = 0; i <= filesCounter; i++)
+            {
+                StringBuilder fileData = new(await ReadStudentsFromSpecificFile(i));
+                if (fileData.Length.Equals(0)) continue;
 
-            students.Remove(studentToDelete);
-            FlushStudentsToFile();
-            return NoContent();
+                List<Student> studentsOfSpecificFile = await JsonSerializer.DeserializeAsync<List<Student>>(new MemoryStream(Encoding.UTF8.GetBytes(fileData.ToString())));
+                Student studentToDelete = studentsOfSpecificFile.FirstOrDefault(student => student.Id == id);
+                if (studentToDelete is null) continue;
+                else
+                {
+                    studentsOfSpecificFile.Remove(studentToDelete);
+                    string newFileData = string.Empty;
+                    if (!studentsOfSpecificFile.Count.Equals(0))
+                    {
+                        newFileData = JsonSerializer.Serialize(studentsOfSpecificFile);
+                        fileData = new(newFileData);
+                        fileData[fileData.Length - 1] = ',';
+                    }
+                    string filePath = $"{allocationPath}\\Students#{i}.json";
+                    object fileLock = new object();
+                    lock (fileLock)
+                    {
+                        using (StreamWriter streamWriter = new StreamWriter(filePath))
+                        {
+                            streamWriter.WriteAsync(newFileData);
+                        };
+                    }
+                    return NoContent();
+                }
+            }
+            return NotFound();
         }
         catch (Exception ex)
         {

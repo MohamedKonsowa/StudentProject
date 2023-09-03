@@ -1,0 +1,84 @@
+﻿@* @using LoggerApp.Shared;
+@namespace LoggerApp.Client
+@page "/Logger"
+@inject HttpClient _httpClient
+<h3>Logger</h3>
+<EditForm Model="logger" OnSubmit="OnValid">
+    <div class="form-group">
+        <label>Choose Log Type:</label>
+        <div class="input-group">
+            <InputSelect id="logType" class="form-control" @bind-Value="logger.Type" required>
+                @foreach (LogType type in Enum.GetValues(typeof(LogType)))
+                {
+                    <option value="@type.">@type</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Log Message:</label>
+        <textarea class="form-control" rows="5" placeholder="Enter Log Data" @bind="logger.Data" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+  
+</EditForm>
+<br />
+<label>Choose logs type you want to display. </label>
+<InputSelect id="logType" class="form-control" @bind-Value="logType" required>
+    @foreach (LogType type in Enum.GetValues(typeof(LogType)))
+    {
+        <option value="@type">@type</option>
+    }
+</InputSelect>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">@nameof(Log.LogDateTime)</th>
+            <th scope="col">@nameof(Log.Data)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(logType == LogType.Information)
+        {
+            @foreach (Log logger in informationLogs ?? new())
+            {
+                <tr>
+                    <td>@logger.LogDateTime</td>
+                    <td>@logger.Data</td>
+                </tr>
+            }
+        }
+        else if(logType == LogType.Debug)
+        {
+            @foreach (Log logger in debugLogs ?? new())
+            {
+                <tr>
+                    <td>@logger.LogDateTime</td>
+                    <td>@logger.Data</td>
+                </tr>
+            }
+        }
+        else if (logType == LogType.Error)
+        {
+            @foreach (Log logger in errorLogs ?? new())
+            {
+                <tr>
+                    <td>@logger.LogDateTime</td>
+                    <td>@logger.Data</td>
+                </tr>
+            }
+        }
+        else if (logType == LogType.Critical)
+        {
+            @foreach (Log logger in criticalLogs ?? new())
+            {
+                <tr>
+                    <td>@logger.LogDateTime</td>
+                    <td>@logger.Data</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table> *@

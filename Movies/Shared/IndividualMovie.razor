@@ -1,0 +1,12 @@
+﻿
+<div>
+	<p>Title : @Movie?.name</p>
+	<p>Release Date : @Movie?.releaseDate.ToString()</p>
+	<button @onclick="() =>DeleteMovie.InvokeAsync(Movie)">Delete</button>
+
+</div>
+
+@code {
+	[Parameter] public Movie? Movie { get; set; }
+	[Parameter] public EventCallback<Movie> DeleteMovie{ get; set; }
+}
