@@ -1,4 +1,4 @@
-Information=1
+Information=3
 Debug=0
-Error=0
+Error=3
 Critical=0

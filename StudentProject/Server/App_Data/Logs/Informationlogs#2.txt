@@ -127,3 +127,40 @@ Log date: 9/3/2023 9:35:54 AM
 Log date: 9/3/2023 9:41:13 AM
 [Information]Log:Student:Pvot Kbcpvs was added successfully
 ===========================================================================
+Log date: 9/4/2023 4:47:09 AM
+[Information]Log:Student:ddd was deleted successfully
+===========================================================================
+Log date: 9/4/2023 9:43:35 AM
+[Information]Log:Public Key: <RSAKeyValue><Modulus>xCxl6paAyXTvZXp+QZHY/gcsHlxQCrTWW/n8jTDezW4qN2nAqYMtxWpE2hxfupf4d+f7WiY/Yc+0RTf1GEWzCX5pAgi01eC9/YaSgIkkepo1Bw+24Xug/+agJma6cMXAd95NyCo38P5B3US7SXWvghjH55vt60ZSzssNGDxNgoHCOv/zvAEweGQ2XfdOnlBlbrbR0kx5Y0bm79BtSBAZpJarVUkSQaFagOeMG9s7+MK5ca+vlXmiZy72JoOhsblGIr6Yz69Vt79ZG8RTi3/5XRkXbofo81ixYDjK40FpCQ9J5Vu4pqTXqrp8gZi4hNEQtSdg9hB+FFHLZpcCLfqoaQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>
+===========================================================================
+Log date: 9/4/2023 9:48:02 AM
+[Information]Log:Public Key: <RSAKeyValue><Modulus>xCxl6paAyXTvZXp+QZHY/gcsHlxQCrTWW/n8jTDezW4qN2nAqYMtxWpE2hxfupf4d+f7WiY/Yc+0RTf1GEWzCX5pAgi01eC9/YaSgIkkepo1Bw+24Xug/+agJma6cMXAd95NyCo38P5B3US7SXWvghjH55vt60ZSzssNGDxNgoHCOv/zvAEweGQ2XfdOnlBlbrbR0kx5Y0bm79BtSBAZpJarVUkSQaFagOeMG9s7+MK5ca+vlXmiZy72JoOhsblGIr6Yz69Vt79ZG8RTi3/5XRkXbofo81ixYDjK40FpCQ9J5Vu4pqTXqrp8gZi4hNEQtSdg9hB+FFHLZpcCLfqoaQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>
+===========================================================================
+Log date: 9/4/2023 10:06:21 AM
+[Information]Log:Public Key: <?xml version="1.0" encoding="utf-16"?>
+<RSAParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Exponent>AQAB</Exponent>
+  <Modulus>mIn3rV13WoVD8Dya8Mx/LQxNXQCy8/BCZNjitJMUaFxh6OlWjxsX3TOLprbB+hSbvP/BbO9Uv6Ylm/vt1zZncbB834SCYiUVd2eCPEi2Qs14H2vGiSKiF94dxAbHyQAOy3yAAzbgvS6gL2C2RmRTivxf1EPlBS92TY7tkkKaDeZrdL/pfqT3GiZbWikxZE4j4PlrTZm6S/+E3/+cLGgiucO2OMH89yOqw0339+9Y4yqGrtmk6pbHEzFF+gBHZ1uUR6YP95Pfpv59JWqfdle00yE1lgA97t26B55Jhnk527xNKciYPk6UTN6rS3apy0kRrNoZfvD+WhdYzi50VPfLlQ==</Modulus>
+</RSAParameters>
+===========================================================================
+Log date: 9/4/2023 10:07:29 AM
+[Information]Log:Public Key: <?xml version="1.0" encoding="utf-16"?>
+<RSAParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Exponent>AQAB</Exponent>
+  <Modulus>v7IVn2hEY4xNj7Rto4/WCFhBN+iDQsaTJ4FcUDXn4gnnzCDQ+4TZFD2pRfVSYb16sEuQO3vfys5whFyeLf7JUEdrEvxO/sC61OIWwb0wac+Ma8BRp2rVctIpQ1JSA2UhZGemDRZeB9GEK4sZgx8GH8Ekxz9X6/pjeA1GAPxRjTrZ521i13zQN2SmqhJj7Fo4SlqdRj3My/HZJY7hgwTTjZPKIzEkDspZw4erxrU26vlD8mgc2XzZBuhIHRPGvAudzCVYM1P2gSg7AD4AoVgp9DV2MKytjNIvwLT2c0YqAacoBYRcPncn9RNTyj3M2s61TaNijUskTXWXtGjZA9Hf2Q==</Modulus>
+</RSAParameters>
+===========================================================================
+Log date: 9/4/2023 10:08:31 AM
+[Information]Log:Public Key: <?xml version="1.0" encoding="utf-16"?>
+<RSAParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Exponent>AQAB</Exponent>
+  <Modulus>v7IVn2hEY4xNj7Rto4/WCFhBN+iDQsaTJ4FcUDXn4gnnzCDQ+4TZFD2pRfVSYb16sEuQO3vfys5whFyeLf7JUEdrEvxO/sC61OIWwb0wac+Ma8BRp2rVctIpQ1JSA2UhZGemDRZeB9GEK4sZgx8GH8Ekxz9X6/pjeA1GAPxRjTrZ521i13zQN2SmqhJj7Fo4SlqdRj3My/HZJY7hgwTTjZPKIzEkDspZw4erxrU26vlD8mgc2XzZBuhIHRPGvAudzCVYM1P2gSg7AD4AoVgp9DV2MKytjNIvwLT2c0YqAacoBYRcPncn9RNTyj3M2s61TaNijUskTXWXtGjZA9Hf2Q==</Modulus>
+</RSAParameters>
+===========================================================================
+Log date: 9/4/2023 10:12:43 AM
+[Information]Log:Public Key: <?xml version="1.0" encoding="utf-16"?>
+<RSAParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Exponent>AQAB</Exponent>
+  <Modulus>v7IVn2hEY4xNj7Rto4/WCFhBN+iDQsaTJ4FcUDXn4gnnzCDQ+4TZFD2pRfVSYb16sEuQO3vfys5whFyeLf7JUEdrEvxO/sC61OIWwb0wac+Ma8BRp2rVctIpQ1JSA2UhZGemDRZeB9GEK4sZgx8GH8Ekxz9X6/pjeA1GAPxRjTrZ521i13zQN2SmqhJj7Fo4SlqdRj3My/HZJY7hgwTTjZPKIzEkDspZw4erxrU26vlD8mgc2XzZBuhIHRPGvAudzCVYM1P2gSg7AD4AoVgp9DV2MKytjNIvwLT2c0YqAacoBYRcPncn9RNTyj3M2s61TaNijUskTXWXtGjZA9Hf2Q==</Modulus>
+</RSAParameters>
+===========================================================================

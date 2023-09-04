@@ -138,3 +138,9 @@ Log date: 9/3/2023 8:52:33 AM
 [Error]Log:Error occured while deleting student:Mohamed
 Error:System.Net.Http.BrowserHttpContent
 ===========================================================================
+Log date: 9/4/2023 7:53:40 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/4/2023 10:12:46 AM
+[Error]Log:Encryption error: The parameter is incorrect.
+===========================================================================

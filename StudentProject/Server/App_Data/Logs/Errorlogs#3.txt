@@ -94,3 +94,24 @@ Log date: 9/3/2023 8:54:37 AM
 [Error]Log:Error occured while deleting student:ali
 Error:System.Net.Http.BrowserHttpContent
 ===========================================================================
+Log date: 9/4/2023 7:53:43 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/4/2023 7:53:44 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/4/2023 7:58:10 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/4/2023 11:55:45 AM
+[Error]Log:Encryption error: The parameter is incorrect.
+===========================================================================
+Log date: 9/4/2023 11:55:48 AM
+[Error]Log:Encryption error: The parameter is incorrect.
+===========================================================================
+Log date: 9/4/2023 12:23:42 PM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/4/2023 12:24:02 PM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================

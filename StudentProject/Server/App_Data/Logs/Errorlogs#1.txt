@@ -106,3 +106,18 @@ Error:System.Net.Http.BrowserHttpContent
 Log date: 9/3/2023 8:52:33 AM
 [Error]Log:The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
 ===========================================================================
+Log date: 9/4/2023 7:53:07 AM
+[Error]Log:File not found: App_Data\Logs\Criticallogs#0.txt
+===========================================================================
+Log date: 9/4/2023 9:43:35 AM
+[Error]Log:Encryption error: The parameter is incorrect.
+===========================================================================
+Log date: 9/4/2023 10:06:21 AM
+[Error]Log:Encryption error: The parameter is incorrect.
+===========================================================================
+Log date: 9/4/2023 10:07:29 AM
+[Error]Log:Encryption error: The parameter is incorrect.
+===========================================================================
+Log date: 9/4/2023 10:12:43 AM
+[Error]Log:Encryption error: The parameter is incorrect.
+===========================================================================

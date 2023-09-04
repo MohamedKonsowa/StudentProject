@@ -6,10 +6,11 @@ namespace ThirdApp.Server;
 [ApiController]
 public class StudentsController : ControllerBase
 {
-    string allocationPath = "App_Data\\Students";
+    static string allocationPath = "App_Data\\Students";
     List<Student> students = new();
-    int filesCounter = 1;
+    int filesCounter = 0;
     int maxFileSize = 1024;
+    string publicKeyXmlFilePath = $"{allocationPath}\\publicKey.xml";
 
     public StudentsController() => ReadFilesCounters();
 
@@ -88,6 +89,7 @@ public class StudentsController : ControllerBase
     [HttpGet]
     public async Task<List<Student>> ReadAllStudents()
     {
+        //await StudentsFileEncrypt();
         StringBuilder allStudentsData = new StringBuilder();
         for (int fileCount = 0; fileCount <= filesCounter; fileCount++)
         {
@@ -103,6 +105,7 @@ public class StudentsController : ControllerBase
         }
         if (!allStudentsData.Length.Equals(0))
         {
+            allStudentsData[allStudentsData.Length - 1] = ']';
             List<Student> students = await JsonSerializer.DeserializeAsync<List<Student>>(new MemoryStream(Encoding.UTF8.GetBytes(allStudentsData.ToString())));
             return students;
         }
@@ -165,5 +168,12 @@ public class StudentsController : ControllerBase
             await Log.Error(ex.Message);
             return StatusCode(500, $"An error occurred: {ex.Message}");
         }
+    }
+    public async Task StudentsFileEncrypt()
+    {
+        string filePath = $"{allocationPath}\\Students#{filesCounter}.json";
+        string publicKeyXml = await System.IO.File.ReadAllTextAsync(publicKeyXmlFilePath);
+
+        await Encryption.FileEncrypt(filePath, publicKeyXml);
     }
 }

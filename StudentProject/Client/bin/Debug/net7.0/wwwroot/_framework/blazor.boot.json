@@ -200,15 +200,15 @@
       "mscorlib.dll": "sha256-Xo3wdLenBZ41X73hGjkWTbEQZDKcQsnPFtlkePUxLY0=",
       "netstandard.dll": "sha256-qjqaAEP3hdLnU\/TnoCd8HaSa+0ruV1TpdaB2GUujGMw=",
       "System.Private.CoreLib.dll": "sha256-\/7uQ+eNo9u3H1mpgMko4D3tKZHeGRfsRjna0Dqsu62k=",
-      "ThirdApp.Shared.dll": "sha256-0X7Iesh6tdU2s9MUHV6k8uNeSnfO25PcUCk4ZD3CKW4=",
-      "ThirdApp.Client.dll": "sha256-IuapZr\/cRTIO20BUsRWN7LyuTNleV0RKxgujqwCglCc="
+      "ThirdApp.Shared.dll": "sha256-B+s8nDqzttf\/knS2O1MGaCcYU3vEBmO6aUJ0ZZVzRvo=",
+      "ThirdApp.Client.dll": "sha256-pZxb1y81k2g35htzMvz7HLDVjCFqNm9imkbyJXUhsdk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ThirdApp.Shared.pdb": "sha256-N3nXa95kUxkfPrAEPKinPHeXEFHsSrjmA68e0nyWEoY=",
-      "ThirdApp.Client.pdb": "sha256-DbqexfrYPQRqrULbMLRMDyOS4Y5P8rWrKexMUodop24="
+      "ThirdApp.Shared.pdb": "sha256-QsRF72cWzfx9WkWgRg2hZ797geV3gaYrGfxaVY\/cM\/c=",
+      "ThirdApp.Client.pdb": "sha256-mcI\/uBsXLSwLZH+P7SV\/eJs6XuYPSI5qqCO+KR6v4QQ="
     },
     "runtime": {
       "dotnet.7.0.10.r0b0899xdh.js": "sha256-qJB30QURoyH3y3WyayHu6nMFIx2XNOkXCez7tagGpvE=",
@@ -227,7 +227,7 @@
     },
     "satelliteResources": {
       "ar": {
-        "ar\/ThirdApp.Shared.resources.dll": "sha256-C\/KaagkfkEfaEFCeReKt\/zRhloC746R2yhZIZG5CBZ8="
+        "ar\/ThirdApp.Shared.resources.dll": "sha256-h\/b+UbiwfrL\/29vcwnCrsFJHDCcIVAwMbdNosRZWsNU="
       }
     }
   }

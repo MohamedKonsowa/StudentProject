@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 namespace ThirdApp.Shared
@@ -64,6 +65,48 @@ namespace ThirdApp.Shared
             student.Age = DecryptInt(student.Age);
             student.Mobile = DecryptMobileNumber(student.Mobile);
             return student;
+        }
+        public static async Task<byte[]> FileEncrypt(string filePath, string publicKeyXml)
+        {
+            string fileData = string.Empty;
+            using (StreamReader streamReader = new StreamReader(filePath))
+            {
+                fileData = await streamReader.ReadToEndAsync();
+                using (RSA rsa = RSA.Create())
+                {
+                    rsa.FromXmlString(publicKeyXml);
+
+                    byte[] fileDataAsBytes = Encoding.UTF8.GetBytes(fileData);
+                    byte[] encryptedData = rsa.Encrypt(fileDataAsBytes, RSAEncryptionPadding.OaepSHA256);
+
+                    return encryptedData;
+                }
+            }
+        }
+        public static string FileDecrypt(byte[] encryptedDataAsBytes, string privateKeyXml)
+        {
+            using (RSA rsa = RSA.Create())
+            {
+                rsa.FromXmlString(privateKeyXml);
+
+                byte[] decryptedDataAsBytes = rsa.Decrypt(encryptedDataAsBytes, RSAEncryptionPadding.OaepSHA256);
+                string decryptedData = Encoding.UTF8.GetString(decryptedDataAsBytes);
+
+                return decryptedData;
+            }
+        }
+        public static void CreatePublicAndPrivateKeys(string filePath)
+        {
+            using (RSA rsa = RSA.Create())
+            {
+                string PublicKeyXml = rsa.ToXmlString(false);
+                string privateKeyXml = rsa.ToXmlString(true);
+                string publicKeyXmlFilePath = $"{filePath}\\publicKey.xml";
+                string privateKeyXmlFilePath = $"{filePath}\\privateKey.xml";
+
+                File.WriteAllText(publicKeyXmlFilePath, PublicKeyXml);
+                File.WriteAllText(privateKeyXmlFilePath, privateKeyXml);
+            }
         }
     }
 }
